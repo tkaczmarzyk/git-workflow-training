@@ -9,3 +9,8 @@ buildNumber.properties
 .settings
 .classpath
 .project
+.gitignore.swp
+.idea/
+git-workflow-training.iml
+src/main/main.iml
+src/test/test.iml
