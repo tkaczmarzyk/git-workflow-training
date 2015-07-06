@@ -13,6 +13,6 @@ public class CalculatorTest {
     public void subtracts2Numbers() {
         int result = calc.subtract(3, 2);
         
-        assertEquals(0, result);
+        assertEquals(1, result);
     }
 }
