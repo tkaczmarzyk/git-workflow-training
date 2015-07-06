@@ -1,6 +1,6 @@
 package org.example;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -11,8 +11,8 @@ public class CalculatorTest {
     
     @Test
     public void subtracts2Numbers() {
-        int result = calc.subtract(2, 2);
+        int result = calc.subtract(3, 2);
         
-        assertEquals(0, result);
+        assertEquals(1, result);
     }
 }
